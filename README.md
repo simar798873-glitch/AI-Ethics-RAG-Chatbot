@@ -42,6 +42,10 @@ The chatbot retrieves relevant information from the provided document and genera
 
 ---
 
+---
+
+## 📸 Screenshots
+
 ### 🔹 Flowise Workflow
 ![Workflow Configuration](flowise.png)
 
@@ -49,6 +53,8 @@ The chatbot retrieves relevant information from the provided document and genera
 ![Chat Output 1](output1.png)
 ![Chat Output 2](output2.png)
 ![Chat Output 3](output3.png)
+
+---
 
 ---
 
