@@ -1,105 +1,87 @@
-# AI-Ethics-RAG-Chatbot
+# AI Ethics RAG Chatbot 🤖
 
 ## 📌 Project Overview
-This project is an AI-powered Retrieval-Augmented Generation (RAG) chatbot built using Flowise. It is designed to answer questions based on documents related to Artificial Intelligence Ethics.
+This project is an AI-powered **Retrieval-Augmented Generation (RAG)** chatbot built using **Flowise**. It is designed to answer questions based on documents related to **Artificial Intelligence Ethics**, specifically focusing on the research paper by Ştefan Trăuşan-Matu.
 
-The chatbot retrieves relevant information from documents and generates accurate, context-based responses.
+The chatbot retrieves relevant information from the provided document and generates accurate, context-based responses using the Mistral LLM.
 
 ---
 
 ## 🎯 Objective
-* To apply AI in real-world problem solving
-* To improve document-based question answering
-* To ensure ethical and responsible AI responses
+- To apply AI in real-world problem solving.
+- To improve document-based question answering using RAG.
+- To ensure ethical and responsible AI responses based on source material.
 
 ---
 
 ## ⚙️ Tech Stack
-* Flowise AI
-* Mistral AI (LLM)
-* Google Gemini Embeddings
-* Vector Store (In-Memory)
-* Conversational Retrieval QA Chain
+- **Framework:** Flowise AI
+- **LLM:** Mistral AI (`ChatMistralAI`)
+- **Embeddings:** Google Gemini / HuggingFace Inference
+- **Vector Store:** In-Memory Vector Store
+- **Chain:** Conversational Retrieval QA Chain
 
 ---
 
 ## 🔄 Workflow Explanation
 
 1. **File Loader**
-   - Loads the AI ethics document
-
+   - Loads the "Ethics in Artificial Intelligence" PDF.
 2. **Text Splitter**
-   - Splits document into smaller chunks for processing
-
+   - Splits the document into smaller chunks for efficient processing.
 3. **Embeddings**
-   - Converts text into vector format using Gemini
-
+   - Converts text chunks into vector format using Google Gemini.
 4. **Vector Store**
-   - Stores embeddings for similarity search
-
+   - Stores these embeddings temporarily for similarity searching.
 5. **Retriever**
-   - Fetches relevant content based on user query
-
+   - Fetches the most relevant snippets from the document based on the user's question.
 6. **Chat Model (Mistral)**
-   - Generates responses using retrieved context
-
+   - Processes the retrieved context to generate a natural language response.
 7. **Conversational Chain**
-   - Maintains chat history for better interaction
-
----
-
-## 💡 Key Features
-* Context-aware responses
-* Ethical AI-focused knowledge
-* Conversational memory
-* Prevents hallucination (answers only from documents)
+   - Uses **Buffer Memory** to maintain chat history for multi-turn conversations.
 
 ---
 
 ## 📸 Screenshots
 
-### 🔹 Workflow
-![Workflow](flowise.png)
+### 🔹 Flowise Workflow
+![Workflow Configuration](screenshots/flowise.png)
 
-### 🔹 Output Example 1
-![Output 1](output1.png)
-
-### 🔹 Output Example 2
-![Output 2](output2.png)
-
-### 🔹 Output Example 3
-![Output 3](./screenshots/output3.png)
+### 🔹 Chatbot Interaction & Results
+![Chat Output 1](screenshots/output1.png)
+![Chat Output 2](screenshots/output2.png)
+![Chat Output 3](screenshots/output3.png)
 
 ---
 
 ## 📂 Project Files
-* Chatflow JSON (Flowise)
-* AI Ethics document
-* Screenshots
+- `RAG Chatbot Chatflow.json`: The Flowise export file.
+- `Ethics in Artificial Intelligence.pdf`: The source knowledge base.
+- `/screenshots`: Visual guides of the setup and output.
 
 ---
 
 ## 🚀 How to Run
 
-1. Open Flowise
-2. Import the JSON file from `/chatflow`
-3. Add API keys:
-   - Mistral API
-   - Google Gemini API
-4. Upload document
-5. Run chatbot
+1. **Open Flowise:** Ensure your Flowise instance is running.
+2. **Import Chatflow:** - Click **Add New** > **Load Chatflow**.
+   - Select the `.json` file from this repository.
+3. **Add API Keys:**
+   - Input your **Mistral API Key**.
+   - Input your **Google Gemini API Key**.
+4. **Run:** Save the flow and start chatting!
 
 ---
 
 ## 📈 Future Improvements
-* Add database (Pinecone / FAISS)
-* Deploy chatbot on web
-* Add multi-document support
+- **Persistent Database:** Move from In-Memory to **Pinecone** or **FAISS**.
+- **Web Deployment:** Integrate into a React or HTML website.
+- **Multi-Doc Support:** Allow the chatbot to query multiple ethics papers.
 
 ---
 
 ## 👩‍💻 Author
-Simarjeet Kaur
+**Simarjeet Kaur**
 
 ---
 
