@@ -58,8 +58,6 @@ The chatbot retrieves relevant information from documents and generates accurate
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 ### 🔹 Workflow
 ![Workflow](flowise.png)
 
@@ -70,7 +68,7 @@ The chatbot retrieves relevant information from documents and generates accurate
 ![Output 2](output2.png)
 
 ### 🔹 Output Example 3
-![Output 3](output3.png)
+![Output 3](./screenshots/output3.png)
 
 ---
 
