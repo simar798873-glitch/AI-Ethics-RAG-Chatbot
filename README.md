@@ -42,15 +42,13 @@ The chatbot retrieves relevant information from the provided document and genera
 
 ---
 
-## 📸 Screenshots
-
 ### 🔹 Flowise Workflow
-![Workflow Configuration](screenshots/flowise.png)
+![Workflow Configuration](flowise.png)
 
 ### 🔹 Chatbot Interaction & Results
-![Chat Output 1](screenshots/output1.png)
-![Chat Output 2](screenshots/output2.png)
-![Chat Output 3](screenshots/output3.png)
+![Chat Output 1](output1.png)
+![Chat Output 2](output2.png)
+![Chat Output 3](output3.png)
 
 ---
 
