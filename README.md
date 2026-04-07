@@ -1,20 +1,20 @@
-# AI Ethics RAG Chatbot 🤖
+# AI Ethics RAG Chatbot 
 
-## 📌 Project Overview
+## Project Overview
 This project is an AI-powered **Retrieval-Augmented Generation (RAG)** chatbot built using **Flowise**. It is designed to answer questions based on documents related to **Artificial Intelligence Ethics**, specifically focusing on the research paper by Ştefan Trăuşan-Matu.
 
 The chatbot retrieves relevant information from the provided document and generates accurate, context-based responses using the Mistral LLM.
 
 ---
 
-## 🎯 Objective
+## Objective
 - To apply AI in real-world problem solving.
 - To improve document-based question answering using RAG.
 - To ensure ethical and responsible AI responses based on source material.
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - **Framework:** Flowise AI
 - **LLM:** Mistral AI (`ChatMistralAI`)
 - **Embeddings:** Google Gemini / HuggingFace Inference
@@ -23,7 +23,7 @@ The chatbot retrieves relevant information from the provided document and genera
 
 ---
 
-## 🔄 Workflow Explanation
+## Workflow Explanation
 
 1. **File Loader**
    - Loads the "Ethics in Artificial Intelligence" PDF.
@@ -44,7 +44,7 @@ The chatbot retrieves relevant information from the provided document and genera
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### 🔹 Flowise Workflow
 ![Workflow Configuration](flowise.png.png)
@@ -57,14 +57,14 @@ The chatbot retrieves relevant information from the provided document and genera
 
 ---
 
-## 📂 Project Files
+## Project Files
 - `RAG Chatbot Chatflow.json`: The Flowise export file.
 - `Ethics in Artificial Intelligence.pdf`: The source knowledge base.
 - `/screenshots`: Visual guides of the setup and output.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Open Flowise:** Ensure your Flowise instance is running.
 2. **Import Chatflow:** - Click **Add New** > **Load Chatflow**.
@@ -76,17 +76,17 @@ The chatbot retrieves relevant information from the provided document and genera
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 - **Persistent Database:** Move from In-Memory to **Pinecone** or **FAISS**.
 - **Web Deployment:** Integrate into a React or HTML website.
 - **Multi-Doc Support:** Allow the chatbot to query multiple ethics papers.
 
 ---
 
-## 👩‍💻 Author
+## Author
 **Simarjeet Kaur**
 
 ---
 
-## 📜 License
+## License
 This project is for educational purposes.
